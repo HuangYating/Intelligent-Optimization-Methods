@@ -51,7 +51,7 @@ void initializeCitys();//初始化城市的位置
 
 double computeDis(const City &c1, const City &c2);//根据位置计算两个城市之间的距离 
 
-void initializeD();// 利用城市的位置来初始化距离平方矩阵D 
+void initializeD();// 利用城市的位置来初始化距离矩阵D 
 
 double computePath(vector<unsigned> &path); //适值函数，根据路径计算城市距离的和  
 
